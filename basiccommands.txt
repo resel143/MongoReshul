@@ -1,0 +1,17 @@
+# to show databases
+show dbs
+
+# to create a new database
+use db_name
+
+#to add element into created db
+db.rdata.insertOne({key: "value", key: "value", key: "value"})
+
+to show active database 
+db
+
+to see collection in it
+show collections
+
+to see data
+db.rdata.find().pretty()
