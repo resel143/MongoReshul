@@ -1,0 +1,7 @@
+show dbs
+
+use db_name
+
+db.rdata.insertOne({})
+
+db.rdata.insertMany([{}, {}])
