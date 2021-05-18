@@ -1,1 +1,5 @@
 db.rdata.updateOne({name: "RJS"},{$set : {type: "Github"}})
+
+update many
+
+db.rdata.updateMany({active: true},{$set: {type: "profile"}})
